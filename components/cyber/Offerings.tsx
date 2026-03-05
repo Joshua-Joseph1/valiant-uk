@@ -6,49 +6,49 @@ import { useRef } from 'react';
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
-const WildlifeProtectionOfferings = () => {
+const CybersecurityOfferings = () => {
   const servicesRef = useRef(null);
   const isServicesInView = useInView(servicesRef, { once: true });
 
   const offerings = [
     {
-      title: 'Ranger Training & Tactical Support',
-      description: 'Comprehensive training programs for wildlife rangers and conservation personnel with advanced tactical support.',
+      title: 'Cyber Risk Assessment & Strategic Planning',
+      description: 'Comprehensive evaluation of your digital infrastructure, identifying vulnerabilities and developing tailored mitigation strategies aligned with global risk management principles.',
       details: [
-        'Advanced tracking and surveillance techniques',
-        'Anti-poaching tactics and field operations',
-        'Weapons training and tactical equipment use',
-        'Emergency response and medical training'
+        'Infrastructure vulnerability scanning and penetration testing',
+        'Risk prioritisation and remediation roadmaps',
+        'Regulatory compliance auditing (GDPR, ISO 27001, NIST)',
+        'Board-level cyber risk reporting and advisory'
       ]
     },
     {
-      title: 'UAV Surveillance & Ground Tracking',
-      description: 'Cutting-edge helicopter surveillance and ground-based tracking systems with real-time monitoring capabilities.',
+      title: 'Continuous Threat Monitoring & Incident Response',
+      description: 'Round-the-clock surveillance of your digital environment with rapid response capabilities to neutralise threats before they escalate.',
       details: [
-        'Long-range UAV patrols with thermal imaging',
-        'Real-time video monitoring and analysis',
-        'Automated detection of human intrusion',
-        'Ground sensor networks and alert systems'
+        'Real-time network and endpoint monitoring',
+        'Security Operations Centre (SOC) as a service',
+        'Incident containment, eradication, and recovery',
+        'Post-incident forensic analysis and lessons learned'
       ]
     },
     {
-      title: 'Wildlife Intelligence Networks',
-      description: 'Comprehensive intelligence gathering and information sharing systems for wildlife crime prevention.',
+      title: 'Data Breach & Ransomware Defence',
+      description: 'Proactive safeguards and response protocols to protect against data exfiltration, ransomware attacks, and extortion threats.',
       details: [
-        'Poaching network identification and disruption',
-        'Criminal intelligence analysis and reporting',
-        'Informant networks and community engagement',
-        'Cross-border intelligence sharing protocols'
+        'Advanced email and endpoint threat protection',
+        'Data loss prevention and encryption strategies',
+        'Ransomware readiness assessments and tabletop exercises',
+        'Negotiation support and recovery planning'
       ]
     },
     {
-      title: 'Integrated Taskforces (Local & International)',
-      description: 'Coordinated multi-agency response teams for wildlife protection with global cooperation.',
+      title: 'Insider Threat & Digital Asset Protection',
+      description: 'Integrated monitoring and governance frameworks to detect insider vulnerabilities and ensure the confidentiality, integrity, and availability of critical digital assets.',
       details: [
-        'Local law enforcement coordination',
-        'International wildlife crime investigations',
-        'Multi-agency taskforce development',
-        'Legal support and prosecution assistance'
+        'User behaviour analytics and anomaly detection',
+        'Privileged access management and zero-trust architecture',
+        'Digital asset inventory and classification',
+        'Harmonised digital, physical, and operational security integration'
       ]
     }
   ];
@@ -58,13 +58,11 @@ const WildlifeProtectionOfferings = () => {
       ref={servicesRef}
       className="py-24 md:py-32 bg-[#1A1A1A] text-white relative overflow-hidden"
     >
-      {/* Elegant background elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 right-20 w-96 h-96 bg-valentor-red rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isServicesInView ? { opacity: 1, y: 0 } : {}}
@@ -76,12 +74,10 @@ const WildlifeProtectionOfferings = () => {
           </h2>
           <div className="mx-auto h-px w-16 bg-[#344154] mb-6" />
           <p className="text-base md:text-lg text-white/80 max-w-4xl mx-auto leading-relaxed font-[ui-sans-serif]">
-            Distinguished security solutions, meticulously crafted to address
-            the singular needs of a discerning global clientele.
+            Our approach integrates robust cyber risk assessment, strategic mitigation planning, and continuous monitoring to defend your organisation against evolving digital threats.
           </p>
         </motion.div>
 
-        {/* Services - Expanded Inline */}
         <div className="max-w-5xl mx-auto">
           <Accordion
             type="multiple"
@@ -142,4 +138,4 @@ const WildlifeProtectionOfferings = () => {
   );
 };
 
-export default WildlifeProtectionOfferings;
+export default CybersecurityOfferings;

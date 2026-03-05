@@ -53,15 +53,15 @@ const ServicesSection = () => {
       features: ["Armored Convoy", "Aviation Security", "Route Planning"],
     },
     {
-      title: "Wildlife Protection",
+      title: "Cybersecurity & Digital Risk Protection",
       description:
-        "We employ advanced surveillance and highly trained rangers to defend threatened species and preserve natural legacies.",
-      href: "/services/anti-poaching-wildlife-protection",
-      image: "/images/wildlife.jpg",
+        "Our approach integrates robust cyber risk assessment, strategic mitigation planning, and continuous monitoring to defend your organisation against evolving digital threats.",
+      href: "/services/cybersecurity-digital-risk-protection",
+      image: "/images/software.jpg",
       features: [
-        "Ranger Training",
-        "UAV Surveillance",
-        "Intelligence Networks",
+        "Cyber Risk Assessment",
+        "Threat Monitoring",
+        "Digital Asset Protection",
       ],
     },
     {

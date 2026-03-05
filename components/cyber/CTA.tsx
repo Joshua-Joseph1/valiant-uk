@@ -2,18 +2,15 @@
 
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
-const WildlifeProtectionCTA = () => {
+const CybersecurityCTA = () => {
   return (
     <section className="relative py-24 md:py-32 bg-[#1A1A1A] text-white overflow-hidden bg-[radial-gradient(ellipse_at_center,rgba(52,65,84,0.20),transparent_60%)]">
-      {/* Elegant background elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-96 h-96 bg-valentor-red rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-valentor-red/5 to-transparent rounded-full blur-3xl"></div>
       </div>
 
-      {/* Geometric pattern overlay */}
       <div className="absolute inset-0 opacity-5">
         <div
           className="absolute inset-0"
@@ -31,9 +28,6 @@ const WildlifeProtectionCTA = () => {
           viewport={{ once: true }}
           className="max-w-5xl mx-auto"
         >
-          {/* Removed premium badge for cleaner blend */}
-
-          {/* Main content */}
           <div className="text-center mb-16">
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
@@ -42,7 +36,7 @@ const WildlifeProtectionCTA = () => {
               viewport={{ once: true }}
               className="text-3xl md:text-5xl font-[ui-serif] tracking-tight text-white mb-4 leading-tight"
             >
-              Ready to Protect Wildlife?
+              Ready to Strengthen Your Cyber Posture?
             </motion.h2>
             <div className="mx-auto h-px w-16 bg-[#344154] mb-6" />
 
@@ -53,13 +47,10 @@ const WildlifeProtectionCTA = () => {
               viewport={{ once: true }}
               className="text-base md:text-lg mb-12 max-w-4xl mx-auto leading-relaxed text-white/80 font-[ui-sans-serif]"
             >
-              Join the ranks of satisfied clients who trust Valiant Risk Group
-              with their most critical wildlife protection needs. Contact us today for a
-              confidential consultation.
+              We empower clients with a resilient cyber posture that aligns with global risk management principles, ensuring the confidentiality, integrity, and availability of critical digital assets while harmonising digital defence with physical and operational security. Contact us today for a confidential consultation.
             </motion.p>
           </div>
 
-          {/* Action button */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -76,37 +67,10 @@ const WildlifeProtectionCTA = () => {
               <ArrowRight className="ml-3 h-6 w-6" />
             </a>
           </motion.div>
-
-          {/* Trust indicators simplified and inline */}
-          {/* <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto divide-y divide-white/10"
-          >
-            {[
-              { label: "Wildlife Security", value: "24/7" },
-              { label: "Security Network", value: "Global" },
-              { label: "Commitment", value: "100% Dedicated" },
-            ].map((item) => (
-              <div
-                key={item.label}
-                className="flex items-center justify-between py-4"
-              >
-                <div className="text-white/80 font-[ui-sans-serif]">
-                  {item.label}
-                </div>
-                <div className="text-white font-[ui-serif] tracking-tight text-lg">
-                  {item.value}
-                </div>
-              </div>
-            ))}
-          </motion.div> */}
         </motion.div>
       </div>
     </section>
   );
 };
 
-export default WildlifeProtectionCTA;
+export default CybersecurityCTA;

@@ -35,8 +35,8 @@ const Navbar = () => {
       href: "/services/secure-transfer-asset-escort",
     },
     {
-      name: "Wildlife Protection",
-      href: "/services/anti-poaching-wildlife-protection",
+      name: "Cybersecurity & Digital Risk Protection",
+      href: "/services/cybersecurity-digital-risk-protection",
     },
     {
       name: "Hardware & Software Security",

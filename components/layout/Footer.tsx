@@ -5,7 +5,7 @@ const Footer = () => {
     { name: "Risk Management & Intelligence", href: "/services/risk-management-intelligence" },
     { name: "Executive Protection", href: "/services/executive-protection" },
     { name: "Secure Transfer & Asset Escort", href: "/services/secure-transfer-asset-escort" },
-    { name: "Wildlife Protection", href: "/services/anti-poaching-wildlife-protection" },
+    { name: "Cybersecurity & Digital Risk Protection", href: "/services/cybersecurity-digital-risk-protection" },
     { name: "Hardware & Software Security", href: "/services/hardware-software-security" },
   ];
 
