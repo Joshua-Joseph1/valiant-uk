@@ -95,7 +95,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-white/70 font-[ui-sans-serif]">
-            © 2024 Valiant Risk Group. All rights reserved. Professional security services worldwide.
+            © 2026 Valiant Risk Group. All rights reserved. Professional security services worldwide.
           </p>
         </div>
       </div>
