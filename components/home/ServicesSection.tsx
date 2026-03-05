@@ -57,7 +57,7 @@ const ServicesSection = () => {
       description:
         "Our approach integrates robust cyber risk assessment, strategic mitigation planning, and continuous monitoring to defend your organisation against evolving digital threats.",
       href: "/services/cybersecurity-digital-risk-protection",
-      image: "/images/software.jpg",
+      image: "/images/cyber.jpg",
       features: [
         "Cyber Risk Assessment",
         "Threat Monitoring",
